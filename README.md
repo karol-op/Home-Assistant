@@ -5,9 +5,10 @@ Home Assistant ([open source home automation platform focused on local control a
 
 # Basic info about my hardware and software
 
-### Software
+## Software
 
-
+##### Automations:
+For my automations I mostly use ([Node-Red](https://nodered.org)) through the hassio integration.
 
 
 
