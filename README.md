@@ -2,4 +2,4 @@
 Home Assistant configuration and documentation for my Smart Home
 
 # KUPA
-!(http://url/to/img.png)
+!(https://raw.githubusercontent.com/karol-op/Home-Assistant/main/extras/header.png?token=AR3YO7PA5CDSXOJZENLJIQ3AB5JPS)
