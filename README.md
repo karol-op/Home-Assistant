@@ -5,9 +5,11 @@ Home Assistant ([open source home automation platform focused on local control a
 
 # Software
 
-## Automations:
+For starters, I use Hassio.
 
-For my automations I mostly use [Node-Red](https://nodered.org) through the hassio integration.
+## Automations
+
+For my automations I mostly use [Node-Red](https://nodered.org) through the hassio integration, although for some simple YAML automations, I use integrated hassio [component](https://www.home-assistant.io/docs/automation/). This combination works perfectly - Node-Red gives you an  opportunity for creating really huge and complex automations, and hassio component works great for simple automation and allows you to use community pre-built automations through [Blueprints](https://www.home-assistant.io/docs/automation/using_blueprints/) feature.
 
 
 
