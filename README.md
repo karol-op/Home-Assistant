@@ -57,16 +57,17 @@ In my case, I didn't have much time to set up DNS, so I just use [nabucasa](http
 # User Interface
 
 There's a lot to write about my UI, but long story short it's mostly based on simplicity and customized for Smartphone usage. Even though I spent lots of hours on this, I believe in the principle that Smart Home must work even when a user doesn't use UI or Voice Assistants - that's why my automations are as complex as they are.
+I fully transitioned to Lovelace UI, it's easy to setup and gives you a lot of opportunities through custom components. Not a long time ago I created a settings tab, where through interface you can enable/disable christmas UI and automations.
 
 ### UI HACS Integrations
 
-* [Lovelace Swipe Navigation](https://github.com/maykar/lovelace-swipe-navigation)
+* [Lovelace Swipe Navigation](https://github.com/maykar/lovelace-swipe-navigation) - swipe through Lovelace views on mobile, essential for me.
 
-* [layout-card](https://github.com/thomasloven/lovelace-layout-card)
+* [layout-card](https://github.com/thomasloven/lovelace-layout-card) - get more control over the placement of lovelace cards.
 
-* [weather-card](https://github.com/bramkragten/weather-card)
+* [weather-card](https://github.com/bramkragten/weather-card) - weather card with animated icons, personally I use it with [open weather map API](https://openweathermap.org/)
 
-* [Mini Media Player](https://github.com/kalkih/mini-media-player) 
+* [Mini Media Player](https://github.com/kalkih/mini-media-player) - minimalistic media card, at this time I don't use it but it offers lots of cool features to your UI
 
 
 
