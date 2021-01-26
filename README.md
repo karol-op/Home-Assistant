@@ -38,11 +38,11 @@ For my automations, I mostly use [Node-Red](https://nodered.org) through the has
 
 ## External Access
 
-In my case, I didn't have much time to set up DNS, so I just use a simple to use [nabucasa](https://www.nabucasa.com/) subscription service. It costs only 5$/month and contains not only external access but also full Google Assistant/Alexa voice assistants integration and webhooks management.
+In my case, I didn't have much time to set up DNS, so I just use [nabucasa](https://www.nabucasa.com/) subscription service. It costs 5$/month and contains not only external access but also full Google Assistant/Alexa voice assistants integration and webhooks management. Easy to setup and use, I recommend.
 
 # User Interface
 
-There's a lot to write about my UI, but long story short it's mostly based on Mobile(smartphone) usage. I spent lots of hours on this, and still spend because i'm trying to polish it and build dashboard for computers/tablets :)
+There's a lot to write about my UI, but long story short it's mostly based on Smartphone usage. Even though I spent lots of hours on this, I believe in the principle that Smart Home must work even when a user doesn't use UI or Voice Assistants. That's why my automations are as complex as they are.
 
 
 ### Hardware
