@@ -42,7 +42,18 @@ In my case, I didn't have much time to set up DNS, so I just use [nabucasa](http
 
 # User Interface
 
-There's a lot to write about my UI, but long story short it's mostly based on Smartphone usage. Even though I spent lots of hours on this, I believe in the principle that Smart Home must work even when a user doesn't use UI or Voice Assistants. That's why my automations are as complex as they are.
+There's a lot to write about my UI, but long story short it's mostly based on simplicity and customized for Smartphone usage. Even though I spent lots of hours on this, I believe in the principle that Smart Home must work even when a user doesn't use UI or Voice Assistants - that's why my automations are as complex as they are.
+
+### UI HACS Integrations
+
+* [Lovelace Swipe Navigation](https://github.com/maykar/lovelace-swipe-navigation)
+
+* [layout-card](https://github.com/thomasloven/lovelace-layout-card)
+
+* [weather-card](https://github.com/bramkragten/weather-card)
+
+* [Mini Media Player](https://github.com/kalkih/mini-media-player) 
+
 
 
 ### Hardware
