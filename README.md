@@ -13,7 +13,7 @@ For my automations, I mostly use [Node-Red](https://nodered.org) through the has
 
 ## Integrations installed
 
-*[ESPHome](https://www.home-assistant.io/integrations/esphome/)
+* [ESPHome](https://www.home-assistant.io/integrations/esphome/)
 
 
 
