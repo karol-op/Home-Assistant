@@ -1,11 +1,13 @@
 ![header](https://user-images.githubusercontent.com/74942333/105779240-33800000-5f6e-11eb-8eb9-036a71b7966b.png)
 
-Home Assistant ([open source home automation platform focused on local control and privacy](https://www.home-assistant.io/)) - configuration and documentation for my Smart Home. I run my instance on Raspberry Pi 3B+, with external access possible by using [nabucasa](https://www.nabucasa.com/). If you want to do some integration or automation as I did, remember to not copy line to line, you have to understand the code to properly install it - if you have any problems, contact me, I will try to help you as best as I can.
+Home Assistant ([open source home automation platform focused on local control and privacy](https://www.home-assistant.io/)) - configuration and documentation for my Smart Home. I run my instance on Raspberry Pi 3B+. If you want to do some integration or automation as I did, remember to not copy line to line, you have to understand the code to properly install it - if you have any problems, contact me, I will try to help you as best as I can.
 
 
+## Most important principles for my Smart Home
 
+* Smart Home must work even when a user doesn't use UI or Voice Assistants - that's why automations must be complex and be able to react to different scenarios/events.
 
-
+* UI used mainly from mobile devices (different dashboards for different type of devices)
 
 # Software
 
@@ -46,7 +48,9 @@ In my case, I didn't have much time to set up DNS, so I just use [nabucasa](http
 
 
 
+## Tracking 
 
+One of the most important things 
 
 
 
