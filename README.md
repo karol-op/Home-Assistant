@@ -3,21 +3,22 @@
 Home Assistant ([open source home automation platform focused on local control and privacy](https://www.home-assistant.io/)) - configuration and documentation for my Smart Home. I run my instance on Raspberry Pi 3B+. If you want to do some integration or automation as I did, remember to not copy line to line, you have to understand the code to properly install it - if you have any problems, contact me, I will try to help you as best as I can.
 
 
-## Most important principles for me
+### Most important principles for me
 
 * Smart Home must work even when a user doesn't use UI or Voice Assistants - that's why automations must be complex and be able to react to different scenarios/events.
 
-* UI used mainly from mobile devices (different dashboards for different type of devices)
+* Different UI for different type of devices (even though I mainly focus on mobile)
+
 
 # Software
 
 For starters, I use Hassio installation.
 
-## Automations
+### Automations
 
 For my automations, I mostly use [Node-Red](https://nodered.org) through the hassio integration, although for some simple YAML automations, I use the integrated hassio [component](https://www.home-assistant.io/docs/automation/). This combination works perfectly - Node-Red allows you to create huge and complex automations, and the hassio component works great for simple automation and allows you to use community pre-built automations through [the blueprints](https://www.home-assistant.io/docs/automation/using_blueprints/) feature.
 
-## Integrations installed
+### Integrations installed
 
 * [ESPHome](https://www.home-assistant.io/integrations/esphome/) - used for DIY ESP8266 and ESP32 projects.
 
@@ -35,22 +36,22 @@ For my automations, I mostly use [Node-Red](https://nodered.org) through the has
 
 * [Home Assistant Community Store](https://hacs.xyz/) - HACS gives you a powerful UI to handle downloads of all your custom needs. It features Integrations, Plugins, AppDaemon Apps, NetDaemon Apps, Python Scripts, and Themes. Hundreds of them created by our beloved community. Later, in the documentation I will list the integrations I use.
 
-### HACS Integrations
+#### HACS Integrations
 
 * [Breaking changes](https://github.com/custom-components/breaking_changes) - allows me to see potential breaking_changes in the current published version based on loaded components, preventing from breaking my instance.
 
 * [Sonoff LAN](https://github.com/AlexxIT/SonoffLAN) - with this integration you can control Sonoff devices with eWeLink (original) firmware over LAN and/or Cloud. Really usefull if you don't want to flash your Sonoff devices with Tasmota/ESPHome etc.
 
 
-## External Access
+### External Access
 
 In my case, I didn't have much time to set up DNS, so I just use [nabucasa](https://www.nabucasa.com/) subscription service. It costs 5$/month and contains not only external access but also full Google Assistant/Alexa voice assistants integration and webhooks management. Easy to setup and use, I recommend.
 
 
 
-## Tracking 
+### Tracking 
 
-One of the most important things 
+One of the most important things for me,
 
 
 
@@ -60,7 +61,7 @@ One of the most important things
 
 # User Interface
 
-There's a lot to write about my UI, but long story short it's mostly based on simplicity and customized for Smartphone usage. Even though I spent lots of hours on this, I believe in the principle that Smart Home must work even when a user doesn't use UI or Voice Assistants - that's why my automations are as complex as they are.
+There's a lot to write about my UI, but long story short it's mostly based on simplicity and has (will have :P) different dashboards for different types of devices.
 I fully transitioned to Lovelace UI, it's easy to setup and gives you a lot of opportunities through custom components. For example, not a long time ago I created a settings tab, where through interface you can enable/disable christmas UI and automations.
 
 ### UI HACS Integrations
