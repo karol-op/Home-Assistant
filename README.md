@@ -3,6 +3,10 @@
 Home Assistant ([open source home automation platform focused on local control and privacy](https://www.home-assistant.io/)) - configuration and documentation for my Smart Home. I run my instance on Raspberry Pi 3B+, with external access possible by using [nabucasa](https://www.nabucasa.com/). If you want to do some integration or automation as I did, remember to not copy line to line, you have to understand the code to properly install it - if you have any problems, contact me, I will try to help you as best as I can.
 
 
+
+
+
+
 # Software
 
 For starters, I use Hassio installation.
@@ -39,6 +43,16 @@ For my automations, I mostly use [Node-Red](https://nodered.org) through the has
 ## External Access
 
 In my case, I didn't have much time to set up DNS, so I just use [nabucasa](https://www.nabucasa.com/) subscription service. It costs 5$/month and contains not only external access but also full Google Assistant/Alexa voice assistants integration and webhooks management. Easy to setup and use, I recommend.
+
+
+
+
+
+
+
+
+
+
 
 # User Interface
 
