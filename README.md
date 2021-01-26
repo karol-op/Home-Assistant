@@ -19,7 +19,7 @@ For my automations, I mostly use [Node-Red](https://nodered.org) through the has
 
 * [Mosquitto broker](https://github.com/home-assistant/addons/blob/master/mosquitto/DOCS.md) - used for mqtt sensors (most of which in my case are 433mhz, then converted to mqtt protocol by [Xiaomi RF Bridge](https://pl.aliexpress.com/item/32963397492.html?spm=a2g0o.search0302.0.0.4a125ad4dsrMqQ&algo_pvid=17d12786-55fb-4de9-9419-64336a8c355c&algo_expid=17d12786-55fb-4de9-9419-64336a8c355c-1&btsid=2100bdca16116211147923058e3070&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)), it's necesarry for my config.
 
-* [Node-RED](https://community.home-assistant.io/t/home-assistant-community-add-on-node-red/55023) - as I wrote before, used for most of my automations, I really recommend trying it for your instance.
+* [Node-RED](https://community.home-assistant.io/t/home-assistant-community-add-on-node-red/55023) - as I wrote before, used for most of my automations, I strongly recommend trying it for your instance.
 
 * [Samba share](https://www.home-assistant.io/hassio/haos_common_tasks/) - this add-on allows me to share my config across my local network so I can easily upload files, custom integrations or change config using my Windows PC.
 
