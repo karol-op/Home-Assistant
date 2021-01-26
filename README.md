@@ -14,6 +14,15 @@ For my automations, I mostly use [Node-Red](https://nodered.org) through the has
 ## Integrations installed
 
 * [ESPHome](https://www.home-assistant.io/integrations/esphome/)
+* [Hass.io Google Drive Backup](https://github.com/sabeechen/hassio-google-drive-backup)
+* [Mosquitto broker](https://github.com/home-assistant/addons/blob/master/mosquitto/DOCS.md)
+* [Node-RED](https://community.home-assistant.io/t/home-assistant-community-add-on-node-red/55023)
+* [Samba share](https://www.home-assistant.io/hassio/haos_common_tasks/)
+* [TasmoAdmin](https://community.home-assistant.io/t/home-assistant-community-add-on-tasmoadmin/54155)
+* [Terminal & SSH](https://community.home-assistant.io/t/home-assistant-community-add-on-ssh-web-terminal/33820)
+
+
+
 
 
 
