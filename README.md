@@ -21,7 +21,7 @@ For my automations, I mostly use [Node-Red](https://nodered.org) through the has
 
 * [Node-RED](https://community.home-assistant.io/t/home-assistant-community-add-on-node-red/55023) - as I wrote before, used for most of my automations, I really recommend trying it for your instance.
 
-* [Samba share](https://www.home-assistant.io/hassio/haos_common_tasks/)
+* [Samba share](https://www.home-assistant.io/hassio/haos_common_tasks/) - this add-on allows me to share my config across my local network so I can easily upload files, custom integrations or change config using my Windows PC.
 
 * [TasmoAdmin](https://community.home-assistant.io/t/home-assistant-community-add-on-tasmoadmin/54155)
 
