@@ -57,7 +57,7 @@ In my case, I didn't have much time to set up DNS, so I just use [nabucasa](http
 # User Interface
 
 There's a lot to write about my UI, but long story short it's mostly based on simplicity and customized for Smartphone usage. Even though I spent lots of hours on this, I believe in the principle that Smart Home must work even when a user doesn't use UI or Voice Assistants - that's why my automations are as complex as they are.
-I fully transitioned to Lovelace UI, it's easy to setup and gives you a lot of opportunities through custom components. Not a long time ago I created a settings tab, where through interface you can enable/disable christmas UI and automations.
+I fully transitioned to Lovelace UI, it's easy to setup and gives you a lot of opportunities through custom components. For example, not a long time ago I created a settings tab, where through interface you can enable/disable christmas UI and automations.
 
 ### UI HACS Integrations
 
