@@ -29,11 +29,16 @@ For my automations, I mostly use [Node-Red](https://nodered.org) through the has
 
 * [Home Assistant Community Store](https://hacs.xyz/) - HACS gives you a powerful UI to handle downloads of all your custom needs. It features Integrations, Plugins, AppDaemon Apps, NetDaemon Apps, Python Scripts, and Themes. Hundreds of them created by our beloved community. Later, in the documentation I will list the integrations I use.
 
+### HACS Integrations
+
+* [Breaking changes](https://github.com/custom-components/breaking_changes) - allows me to see potential breaking_changes in the current published version based on loaded components, preventing from breaking my instance.
+
+* [Sonoff LAN](https://github.com/AlexxIT/SonoffLAN) - with this integration you can control Sonoff devices with eWeLink (original) firmware over LAN and/or Cloud. Really usefull if you don't want to flash your Sonoff devices with Tasmota/ESPHome etc.
 
 
 ## External Access
 
-In my case, I didn't have much time to set up DNS, so I just use a simple to use [nabucasa](https://www.nabucasa.com/) subscription service. It costs only 5$/month and contains not only external access but also full Google Assistant/Alexa voice integration and webhooks management.
+In my case, I didn't have much time to set up DNS, so I just use a simple to use [nabucasa](https://www.nabucasa.com/) subscription service. It costs only 5$/month and contains not only external access but also full Google Assistant/Alexa voice assistants integration and webhooks management.
 
 
 
