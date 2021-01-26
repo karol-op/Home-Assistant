@@ -49,14 +49,18 @@ In my case, I didn't have much time to set up DNS, so I just use [nabucasa](http
 
 
 
-### Tracking 
+### Person Tracking 
 
-One of the most important things for me,
+One of the most important things in my case. For me it is done through:
+
+* GPS Tracking on Mobile Apps of users - my household members and I use [Android Home Assistant app](https://play.google.com/store/apps/details?id=io.homeassistant.companion.android&hl=en&gl=US), it also sends data about battery and lots of other things,  you can choose which ones you want to see in your instance, but be careful with quantity - it might reduce your mobile device battery life drastically.
+
+
+* Wi-Fi Tracking - it's executed through Node-Red very simple automation. It's pinging the devices every 20 seconds, which allows me to see whose mobile is connected to a local network. You always carry your smartphone with you so it's a very convenient and easy to use method although it has one disadvantage - you can only say if device is at home, but you can't predict if a device has left a house (it is about turning off wi-fi by household members, loss of coverage or simple discharge of device).
 
 
 
-
-
+* BLE Tracking - for now, it's  used for mine [Mi Band 3](https://www.aliexpress.com/w/wholesale-mi-band-3.html) and [iTag devices](https://www.aliexpress.com/w/wholesale-itag-bluetooth-tracker.html). Mi Band and iTags emit BLE Signals every minute or so allowing me to see if they're at home. I execute it with ESP32-BLE (working as a kind of Bluetooth Gateway) flashed with ESPHome, using [ble_presence platform](https://esphome.io/components/binary_sensor/ble_presence.html). It scans for BLE Signals emited by devices.
 
 
 # User Interface
