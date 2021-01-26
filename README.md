@@ -40,7 +40,9 @@ For my automations, I mostly use [Node-Red](https://nodered.org) through the has
 
 In my case, I didn't have much time to set up DNS, so I just use a simple to use [nabucasa](https://www.nabucasa.com/) subscription service. It costs only 5$/month and contains not only external access but also full Google Assistant/Alexa voice assistants integration and webhooks management.
 
+# User Interface
 
+There's a lot to write about my UI, but long story short it's mostly based on Mobile(smartphone) usage. I spent lots of hours on this, and still spend because i'm trying to polish it and build dashboard for computers/tablets :)
 
 
 ### Hardware
