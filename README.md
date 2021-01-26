@@ -13,7 +13,7 @@ For my automations, I mostly use [Node-Red](https://nodered.org) through the has
 
 ## Integrations installed
 
-* [ESPHome](https://www.home-assistant.io/integrations/esphome/) - used for DIY esp8266 and esp32 projects
+* [ESPHome](https://www.home-assistant.io/integrations/esphome/) - used for DIY ESP8266 and ESP32 projects.
 
 * [Hass.io Google Drive Backup](https://github.com/sabeechen/hassio-google-drive-backup) - everyday backups my whole config and automatically uploads it to Google Drive, saved my ass a lot of times when sd card broke or some integration wasn't configured properly and I couldn't launch Home Assistant. Install it - believe me, it's necesarry.
 
@@ -23,9 +23,9 @@ For my automations, I mostly use [Node-Red](https://nodered.org) through the has
 
 * [Samba share](https://www.home-assistant.io/hassio/haos_common_tasks/) - this add-on allows me to share my config across my local network so I can easily upload files, custom integrations or change config using my Windows PC.
 
-* [TasmoAdmin](https://community.home-assistant.io/t/home-assistant-community-add-on-tasmoadmin/54155)
+* [TasmoAdmin](https://community.home-assistant.io/t/home-assistant-community-add-on-tasmoadmin/54155) - this allows me to centrally manage my all Sonoff-Tasmota devices.
 
-* [Terminal & SSH](https://community.home-assistant.io/t/home-assistant-community-add-on-ssh-web-terminal/33820)
+* [Terminal & SSH](https://community.home-assistant.io/t/home-assistant-community-add-on-ssh-web-terminal/33820) - setting up an SSH server allows access to your Home Assistant folders with any SSH client. It also includes a command-line tool to access the Home Assistant API. It helps with debugging and accesing files in Home Assistant.
 
 
 
