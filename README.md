@@ -27,6 +27,10 @@ For my automations, I mostly use [Node-Red](https://nodered.org) through the has
 
 * [Terminal & SSH](https://community.home-assistant.io/t/home-assistant-community-add-on-ssh-web-terminal/33820) - setting up an SSH server allows access to your Home Assistant folders with any SSH client. It also includes a command-line tool to access the Home Assistant API. It helps with debugging and accessing files in Home Assistant.
 
+* [Home Assistant Community Store](https://hacs.xyz/) - HACS gives you a powerful UI to handle downloads of all your custom needs. It features Integrations, Plugins, AppDaemon Apps, NetDaemon Apps, Python Scripts, and Themes. Hundreds of them created by our beloved community. I recommend it.
+
+
+
 ## External Access
 
 In my case, I didn't have much time to set up DNS, so I just use a simple to use [nabucasa](https://www.nabucasa.com/) subscription service. It costs only 5$/month and contains not only external access but also full Google Assistant/Alexa voice integration and webhooks management.
