@@ -63,9 +63,9 @@ One of the most important things in my case because it allows me to set up for e
 In my case, I didn't have much time to set up DNS, so I just use [nabucasa](https://www.nabucasa.com/) subscription service. It costs 5$/month and contains not only external access but also full Google Assistant/Alexa voice assistants integration and webhooks management. Easy to set up and use, I recommend.
 
 
+### Notifications
 
-
-
+They are done with mobile apps + [telegram bot](https://www.home-assistant.io/integrations/telegram/). On telegram I only get notifications with photos and/or videos attached and mobile app work for text only notifications. Works well and reliably. 
 # User Interface
 
 There's a lot to write about my UI, but long story short it's mostly based on simplicity and has (will have :P) different dashboards for different types of devices.
