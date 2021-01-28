@@ -3,7 +3,7 @@
 Home Assistant ([open source home automation platform focused on local control and privacy](https://www.home-assistant.io/)) - configuration and documentation for my Smart Home. I run my instance on Raspberry Pi 3B+. If you want to do some integration or automation as I did, remember to not copy line to line, you have to understand the code to properly install it - if you have any problems, contact me, I will try to help you as best as I can.
 
 
-## Most important principles for me
+# Most important principles for me
 
 * Smart Home must work even when a user doesn't use UI or Voice Assistants - that's why automations must be complex and be able to react to different scenarios/events.
 
@@ -32,7 +32,7 @@ For starters, I use Hassio installation.
 
 * [Home Assistant Community Store](https://hacs.xyz/) - HACS gives you a powerful UI to handle downloads of all your custom needs. It features Integrations, Plugins, AppDaemon Apps, NetDaemon Apps, Python Scripts, and Themes. Hundreds of them created by our beloved community. Later, in the documentation, I will list the integrations I use.
 
-#### HACS Integrations
+### HACS Integrations
 
 * [Breaking changes](https://github.com/custom-components/breaking_changes) - allows me to see potential breaking_changes in the current published version based on loaded components, preventing from breaking my instance.
 
@@ -85,4 +85,4 @@ I fully transitioned to Lovelace UI, it's easy to set up and gives you a lot of 
 
 * [Mini Graph Card](https://github.com/kalkih/mini-graph-card) - a minimalistic and customizable graph card, looks great, easy to set up
 
-### Hardware
+# Hardware
