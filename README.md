@@ -3,7 +3,7 @@
 Home Assistant ([open source home automation platform focused on local control and privacy](https://www.home-assistant.io/)) - configuration and documentation for my Smart Home. I run my instance on Raspberry Pi 3B+. If you want to do some integration or automation as I did, remember to not copy line to line, you have to understand the code to properly install it - if you have any problems, contact me, I will try to help you as best as I can.
 
 
-### Most important principles for me
+## Most important principles for me
 
 * Smart Home must work even when a user doesn't use UI or Voice Assistants - that's why automations must be complex and be able to react to different scenarios/events.
 
@@ -13,10 +13,6 @@ Home Assistant ([open source home automation platform focused on local control a
 # Software
 
 For starters, I use Hassio installation.
-
-### Automations
-
-For my automations, I mostly use [Node-Red](https://nodered.org) through the hassio integration, although for some simple YAML automations, I use the integrated hassio [component](https://www.home-assistant.io/docs/automation/). This combination works perfectly - Node-Red allows you to create huge and complex automations, and the hassio component works great for simple automation and allows you to use community pre-built automations through [the blueprints](https://www.home-assistant.io/docs/automation/using_blueprints/) feature.
 
 ### Integrations installed
 
@@ -43,10 +39,9 @@ For my automations, I mostly use [Node-Red](https://nodered.org) through the has
 * [Sonoff LAN](https://github.com/AlexxIT/SonoffLAN) - with this integration you can control Sonoff devices with eWeLink (original) firmware over LAN and/or Cloud.  Useful if you don't want to flash your Sonoff devices with Tasmota/ESPHome etc.
 
 
-### External Access
+### Automations
 
-In my case, I didn't have much time to set up DNS, so I just use [nabucasa](https://www.nabucasa.com/) subscription service. It costs 5$/month and contains not only external access but also full Google Assistant/Alexa voice assistants integration and webhooks management. Easy to set up and use, I recommend.
-
+For my automations, I mostly use [Node-Red](https://nodered.org) through the hassio integration, although for some simple YAML automations, I use the integrated hassio [component](https://www.home-assistant.io/docs/automation/). This combination works perfectly - Node-Red allows you to create huge and complex automations, and the hassio component works great for simple automation and allows you to use community pre-built automations through [the blueprints](https://www.home-assistant.io/docs/automation/using_blueprints/) feature.
 
 
 ### Person Tracking 
@@ -61,6 +56,14 @@ One of the most important things in my case because it allows me to set up for e
 
 
 * BLE Tracking - for now, it's used for mine [Mi Band 3](https://www.aliexpress.com/w/wholesale-mi-band-3.html) and [iTag devices](https://www.aliexpress.com/w/wholesale-itag-bluetooth-tracker.html). Mi Band and iTags emit BLE Signals every minute or so allowing me to see if they're at home. I execute it with ESP32-BLE (working as a kind of Bluetooth Gateway) flashed with ESPHome, using [ble_presence platform](https://esphome.io/components/binary_sensor/ble_presence.html). It scans for BLE Signals emitted by devices.
+
+
+### External Access
+
+In my case, I didn't have much time to set up DNS, so I just use [nabucasa](https://www.nabucasa.com/) subscription service. It costs 5$/month and contains not only external access but also full Google Assistant/Alexa voice assistants integration and webhooks management. Easy to set up and use, I recommend.
+
+
+
 
 
 # User Interface
