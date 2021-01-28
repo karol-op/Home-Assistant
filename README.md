@@ -3,11 +3,11 @@
 Home Assistant ([open source home automation platform focused on local control and privacy](https://www.home-assistant.io/)) - configuration and documentation for my Smart Home. I run my instance on Raspberry Pi 3B+. If you want to do some integration or automation as I did, remember to not copy line to line, you have to understand the code to properly install it - if you have any problems, contact me, I will try to help you as best as I can.
 
 
-# Most important principles while building for me
+## Most important principles while building for me
 
 * Smart Home must work even when a user doesn't use UI or Voice Assistants - that's why automations must be complex and be able to react to different scenarios/events.
 
-* Different UI for a different type of devices (even though I mainly focus on mobile)
+* Different UI for a different type of devices (although I mainly focus on mobile)
 
 
 # Software
