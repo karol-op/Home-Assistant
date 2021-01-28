@@ -78,6 +78,8 @@ I fully transitioned to Lovelace UI, it's easy to set up and gives you a lot of 
 
 * [Mini Media Player](https://github.com/kalkih/mini-media-player) - minimalistic media card, at this time I don't use it but it offers lots of cool features to your UI
 
+### Other UI Integrations
 
+* [Mini Graph Card](https://github.com/kalkih/mini-graph-card) - a minimalistic and customizable graph card, looks great, easy to set up
 
 ### Hardware
