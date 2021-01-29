@@ -96,3 +96,7 @@ Just an ESP32 connected to wi-fi network, flashed with ESPHome. It's used for:
 * Tracking, with [ble_presence platform](https://esphome.io/components/binary_sensor/ble_presence.html). It scans for BLE Signals emitted by tracking devices ([iTag](https://www.aliexpress.com/w/wholesale-itag-bluetooth-tracker.html) or Smart Bands/Smart Watches).
 
 * Temperature sensor hub. Collects all the data from [Xiaomi Bluetooth Temperature and Humidity sensor](https://pl.aliexpress.com/item/1005001840988613.html?spm=a2g0o.search0302.0.0.5678540aqnfQ6p&algo_pvid=5aa90c73-b2b3-4021-ba9a-859a20b142be&algo_expid=5aa90c73-b2b3-4021-ba9a-859a20b142be-17&btsid=0b0a187b16118767255823516e8de7&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) using [Xiaomi Mijia BLE Sensors component](https://esphome.io/components/sensor/xiaomi_ble.html) from ESPHome.
+
+### Xiaomi RF Bridge Modification
+
+[Xiaomi RF Bridge](https://pl.aliexpress.com/item/32963397492.html?spm=a2g0o.search0302.0.0.4a122edc9mQI1s&algo_pvid=ea108c23-dfb3-4c19-9ed1-f65401f41cac&algo_expid=ea108c23-dfb3-4c19-9ed1-f65401f41cac-1&btsid=2100bdde16119184458272994e65fe&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
