@@ -110,6 +110,23 @@ It's a Zigbee hub that you can connect to Home Assistant using [built-in integra
 
 <img src="https://user-images.githubusercontent.com/74942333/106277183-f307d700-6238-11eb-8e3c-cdb18571156e.png" width="200" height="200">
 
+
+## Lights
+ c
+There's many devices on a market you can use to implement light control to your Smart Home. I chose [Shelly](https://shelly.cloud/). Simply, because it's cheap and reliable, but the most important factor for me was that this switch can work with normal analog light switches, so if you don't have network connection/your Home Assistant is offline, you can still use your lights, as you did before having Smart Home. I also have one [Sonoff Touch](https://www.itead.cc/sonoff-touch.html) light switch. It looks really good. My Sonoff Touch is flashed with [ESPEasy](https://www.letscontrolit.com/wiki/index.php/ESPEasy). The only reason why I wouldn't use it in whole house was, that it doesn't fit in my electric light box.
+
+#### My light devices:
+
+* [Shelly 1](https://shelly.cloud/products/shelly-1-smart-home-automation-relay/) x1
+
+<img src="https://user-images.githubusercontent.com/74942333/106278634-598df480-623b-11eb-9c98-5c6097a5af5a.jpg" width="200" height="200">
+
+
+* [Shelly 2.5](https://shelly.cloud/products/shelly-25-smart-home-automation-relay/) x2
+
+<img src="https://user-images.githubusercontent.com/74942333/106278743-893cfc80-623b-11eb-9304-a51a246eaede.jpg" width="200" height="200">
+
+
 ## DIY Projects
 
 ### ESP32 Bluetooth Gateway
