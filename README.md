@@ -84,6 +84,9 @@ I fully transitioned to Lovelace UI, it's easy to set up and gives you a lot of 
 ### Other UI Integrations
 
 * [Mini Graph Card](https://github.com/kalkih/mini-graph-card) - a minimalistic and customizable graph card, looks great, easy to set up
+### How does it look?
+
+Screenshots are on the bottom.
 
 # Hardware
 
