@@ -119,7 +119,7 @@ There's many devices on a market you can use to implement light control to your 
 
 * [Shelly 1](https://shelly.cloud/products/shelly-1-smart-home-automation-relay/) x1
 
-<img src="![613PW2KBEXL _SX466_](https://user-images.githubusercontent.com/74942333/106292297-f311d200-624c-11eb-9690-a639953c3dcc.jpg)" width="200" height="200">
+<img src="https://user-images.githubusercontent.com/74942333/106292297-f311d200-624c-11eb-9690-a639953c3dcc.jpg" width="200" height="200">
 
 
 * [Shelly 2.5](https://shelly.cloud/products/shelly-25-smart-home-automation-relay/) x2
