@@ -112,7 +112,7 @@ It's a Zigbee hub that you can connect to Home Assistant using [built-in integra
 
 
 ## Lights
-There are many devices on a market you can use to implement light control to your Smart Home. I chose [Shelly](https://shelly.cloud/). Simply, because it's cheap and reliable, but the most important factor for me was that this switch can work with normal analog light switches, so if you don't have network connection/your Home Assistant is offline, you can still use your lights, as you did before having Smart Home. I also have one [Sonoff Touch](https://www.itead.cc/sonoff-touch.html) light switch. It looks really good. My Sonoff Touch is flashed with [ESPEasy](https://www.letscontrolit.com/wiki/index.php/ESPEasy). The only reason why I wouldn't use it in whole house was, that it doesn't fit in my electric light box.
+There are many devices on a market you can use to implement light control to your Smart Home. I chose [Shelly](https://shelly.cloud/). Simply, because it's cheap and reliable, but the most important factor for me was that this switch can work with normal analog light switches, so if you don't have network connection/your Home Assistant is offline, you can still use your lights, as you did before having Smart Home. Shellies are connected through [Shelly HACS Component](https://github.com/StyraHem/ShellyForHASS). I also have one [Sonoff Touch](https://www.itead.cc/sonoff-touch.html) light switch. It looks really good. My Sonoff Touch is flashed with [ESPEasy](https://www.letscontrolit.com/wiki/index.php/ESPEasy). The only reason why I wouldn't use it in whole house was, that it doesn't fit in my electric light box.
 
 #### My light devices:
 
@@ -144,9 +144,26 @@ There are many devices on a market you can use to implement light control to you
 
 ## Cameras
 
-* [EZVIZ MINI PANO 3MP 360° Cloud Camera](https://www.ezvizlife.com/uk/item/ez360-Pano/798) x2
+* [EZVIZ MINI PANO 3MP 360° Cloud Camera](https://www.ezvizlife.com/uk/item/ez360-Pano/798) x2 (connected through RTSP stream)
 
 <img src="https://user-images.githubusercontent.com/74942333/106294160-1d648f00-624f-11eb-8143-44bdc24c2113.jpg" width="200" height="200">
+
+## Wall Plugs
+
+* [Sonoff S26 EU](https://sonoff.tech/product/wifi-smart-plugs/s26) x1 (connected through Sonoff Lan custom integration)
+
+<img src="https://user-images.githubusercontent.com/74942333/106294600-a4b20280-624f-11eb-8ef9-7f76fc7e224f.jpg" width="200" height="200">
+
+## TV
+
+* LG, connected through [webostv integration](https://www.home-assistant.io/integrations/webostv/)
+
+<img src="https://user-images.githubusercontent.com/74942333/106294820-ed69bb80-624f-11eb-9be2-b274543edf72.jpg" width="200" height="200">
+
+
+## Doorbell 
+
+* Normal, dumb wireless 433mhz doorbell, connected to Home Assistant using modified Xiaomi RF Bridge.
 
 
 ## DIY Projects
