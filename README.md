@@ -98,15 +98,15 @@ To get it working you need to have [Xiaomi Gateway](https://pl.aliexpress.com/it
 
 
 
-It's a Zigbee hub that you can easily connect to Home Assistant using [built-in integration](https://www.home-assistant.io/integrations/xiaomi_miio/).
+It's a Zigbee hub that you can connect to Home Assistant using [built-in integration](https://www.home-assistant.io/integrations/xiaomi_miio/).
 
 #### Devices connected to my gateway:
-* [Motion Sensor](https://pl.aliexpress.com/item/4000015856327.html)
+* [Motion Sensor](https://pl.aliexpress.com/item/4000015856327.html) x1
 
 <img src="https://user-images.githubusercontent.com/74942333/106276958-9e645c00-6238-11eb-9506-63a88331eeb7.jpg" width="200" height="200">
 
 
-* [Wireless Mini Switch](https://pl.aliexpress.com/item/4001042438615.html?spm=a2g0o.productlist.0.0.70437cafxLIUMU&algo_pvid=e431f23e-50a3-4f18-99c5-e6ae18eabe05&algo_expid=e431f23e-50a3-4f18-99c5-e6ae18eabe05-5&btsid=0b0a0ae216119245079724924e17f5&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
+* [Wireless Mini Switch](https://pl.aliexpress.com/item/4001042438615.html?spm=a2g0o.productlist.0.0.70437cafxLIUMU&algo_pvid=e431f23e-50a3-4f18-99c5-e6ae18eabe05&algo_expid=e431f23e-50a3-4f18-99c5-e6ae18eabe05-5&btsid=0b0a0ae216119245079724924e17f5&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) x1
 
 <img src="https://user-images.githubusercontent.com/74942333/106277183-f307d700-6238-11eb-8e3c-cdb18571156e.png" width="200" height="200">
 
