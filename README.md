@@ -112,8 +112,7 @@ It's a Zigbee hub that you can connect to Home Assistant using [built-in integra
 
 
 ## Lights
- c
-There's many devices on a market you can use to implement light control to your Smart Home. I chose [Shelly](https://shelly.cloud/). Simply, because it's cheap and reliable, but the most important factor for me was that this switch can work with normal analog light switches, so if you don't have network connection/your Home Assistant is offline, you can still use your lights, as you did before having Smart Home. I also have one [Sonoff Touch](https://www.itead.cc/sonoff-touch.html) light switch. It looks really good. My Sonoff Touch is flashed with [ESPEasy](https://www.letscontrolit.com/wiki/index.php/ESPEasy). The only reason why I wouldn't use it in whole house was, that it doesn't fit in my electric light box.
+There are many devices on a market you can use to implement light control to your Smart Home. I chose [Shelly](https://shelly.cloud/). Simply, because it's cheap and reliable, but the most important factor for me was that this switch can work with normal analog light switches, so if you don't have network connection/your Home Assistant is offline, you can still use your lights, as you did before having Smart Home. I also have one [Sonoff Touch](https://www.itead.cc/sonoff-touch.html) light switch. It looks really good. My Sonoff Touch is flashed with [ESPEasy](https://www.letscontrolit.com/wiki/index.php/ESPEasy). The only reason why I wouldn't use it in whole house was, that it doesn't fit in my electric light box.
 
 #### My light devices:
 
@@ -126,6 +125,9 @@ There's many devices on a market you can use to implement light control to your 
 
 <img src="https://user-images.githubusercontent.com/74942333/106278743-893cfc80-623b-11eb-9304-a51a246eaede.jpg" width="200" height="200">
 
+* [Sonoff Touch](https://www.itead.cc/sonoff-touch.html) x1
+
+<img src="https://user-images.githubusercontent.com/74942333/106293041-d3c77480-624d-11eb-9fda-4e56b7507a5c.jpg" width="200" height="200>
 
 ## DIY Projects
 
