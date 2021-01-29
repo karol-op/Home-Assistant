@@ -65,7 +65,7 @@ In my case, I didn't have much time to set up DNS, so I just use [nabucasa](http
 
 ### Notifications
 
-They are done with mobile apps + [telegram bot](https://www.home-assistant.io/integrations/telegram/). On telegram, I only get notifications with photos and/or videos attached, and the mobile app works for text only notifications. Works well and reliably. I'm also using text to speech on Google Speakers, for example, "XYZ is near home".
+They are done with mobile apps + [telegram bot](https://www.home-assistant.io/integrations/telegram/). On telegram, I only get notifications with photos and/or videos attached, and the mobile app works for text-only notifications. Works well and reliably. I'm also using text to speech on Google Speakers, for example, "XYZ is near home".
 # User Interface
 
 There's a lot to write about my UI, but long story short it's mostly based on simplicity and has (will have :P) different dashboards for different types of devices.
@@ -112,7 +112,7 @@ It's a Zigbee hub that you can connect to Home Assistant using [built-in integra
 
 
 ## Lights
-There are many devices on a market you can use to implement light control to your Smart Home. I chose [Shelly](https://shelly.cloud/). Simply, because it's cheap and reliable, but the most important factor for me was that this switch can work with normal analog light switches, so if you don't have network connection/your Home Assistant is offline, you can still use your lights, as you did before having Smart Home. Shellies are connected through [Shelly HACS Component](https://github.com/StyraHem/ShellyForHASS). I also have one [Sonoff Touch](https://www.itead.cc/sonoff-touch.html) light switch. It looks really good. My Sonoff Touch is flashed with [ESPEasy](https://www.letscontrolit.com/wiki/index.php/ESPEasy). The only reason why I wouldn't use it in whole house was, that it doesn't fit in my electric light box.
+There are many devices on the market you can use to implement light control in your Smart Home. I chose [Shelly](https://shelly.cloud/). Simply, because it's cheap and reliable, but the most important factor for me was that this switch can work with normal analog light switches, so if you don't have a network connection/your Home Assistant is offline, you can still use your lights, as you did before having Smart Home. Shellies are connected through [Shelly HACS Component](https://github.com/StyraHem/ShellyForHASS). I also have one [Sonoff Touch](https://www.itead.cc/sonoff-touch.html) light switch. It looks really good. My Sonoff Touch is flashed with [ESPEasy](https://www.letscontrolit.com/wiki/index.php/ESPEasy). The only reason why I wouldn't use it in the whole house was, that it doesn't fit in my electric lightbox.
 
 #### My light devices:
 
