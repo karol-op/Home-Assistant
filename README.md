@@ -126,8 +126,7 @@ There are many devices on a market you can use to implement light control to you
 <img src="https://user-images.githubusercontent.com/74942333/106278743-893cfc80-623b-11eb-9304-a51a246eaede.jpg" width="200" height="200">
 
 * [Sonoff Touch](https://www.itead.cc/sonoff-touch.html) x1
-
-<img src="https://user-images.githubusercontent.com/74942333/106293041-d3c77480-624d-11eb-9fda-4e56b7507a5c.jpg" width="200" height="200>
+<img src="https://user-images.githubusercontent.com/74942333/106293041-d3c77480-624d-11eb-9fda-4e56b7507a5c.jpg" width="200" height="200">
 
 ## DIY Projects
 
