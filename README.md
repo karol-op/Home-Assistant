@@ -99,4 +99,4 @@ Just an ESP32 connected to wi-fi network, flashed with ESPHome. It's used for:
 
 ### Xiaomi RF Bridge Modification
 
-[Xiaomi RF Bridge](https://pl.aliexpress.com/item/32963397492.html?spm=a2g0o.search0302.0.0.4a122edc9mQI1s&algo_pvid=ea108c23-dfb3-4c19-9ed1-f65401f41cac&algo_expid=ea108c23-dfb3-4c19-9ed1-f65401f41cac-1&btsid=2100bdde16119184458272994e65fe&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
+[Xiaomi RF Bridge](https://pl.aliexpress.com/item/32963397492.html?spm=a2g0o.search0302.0.0.4a122edc9mQI1s&algo_pvid=ea108c23-dfb3-4c19-9ed1-f65401f41cac&algo_expid=ea108c23-dfb3-4c19-9ed1-f65401f41cac-1&btsid=2100bdde16119184458272994e65fe&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) flashed with Tasmota, using [this tutorial](https://tasmota.github.io/docs/devices/Sonoff-RF-Bridge-433/). Most of my motion sensors are 433Mhz, so this mod allows me to use them. 
