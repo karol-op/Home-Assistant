@@ -196,3 +196,17 @@ Just an ESP32 connected to a wi-fi network, flashed with ESPHome. It's used for:
 
 
 <img src="https://user-images.githubusercontent.com/74942333/106296697-48041700-6252-11eb-90ab-5bd927438291.jpg">
+
+
+
+[Lights Tab](https://imgur.com/IrVLD8E)
+
+
+[Temperature Tab](https://imgur.com/LjW6DrE)
+
+
+[TV remote Tab](https://imgur.com/LpUbhPg)
+
+
+
+
