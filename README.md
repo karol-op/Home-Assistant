@@ -1,6 +1,6 @@
 ![header](https://user-images.githubusercontent.com/74942333/105779240-33800000-5f6e-11eb-8eb9-036a71b7966b.png)
 
-Home Assistant ([open source home automation platform focused on local control and privacy](https://www.home-assistant.io/)) - configuration and documentation for my Smart Home. I run my instance on Raspberry Pi 3B+. If you want to do some integration or automation as I did, remember to not copy line to line, you have to understand the code to properly install it - if you have any problems, contact me, I will try to help you as best as I can.
+Home Assistant ([open-source home automation platform focused on local control and privacy](https://www.home-assistant.io/)) - configuration and documentation for my Smart Home. I run my instance on Raspberry Pi 3B+. If you want to do some integration or automation as I did, remember to not copy line to line, you have to understand the code to properly install it - if you have any problems, contact me, I will try to help you as best as I can.
 
 
 ## Most important principles while building for me
@@ -18,7 +18,7 @@ For starters, I use Hassio installation.
 
 * [ESPHome](https://www.home-assistant.io/integrations/esphome/) - used for DIY ESP8266 and ESP32 projects.
 
-* [Hass.io Google Drive Backup](https://github.com/sabeechen/hassio-google-drive-backup) - everyday backups my whole config and automatically uploads it to Google Drive, saved my ass a lot of times when sd card broke or some integration wasn't configured properly and I couldn't launch Home Assistant. Install it - believe me, it's necessary.
+* [Hass.io Google Drive Backup](https://github.com/sabeechen/hassio-google-drive-backup) - everyday backups my whole config and automatically uploads it to Google Drive, saved my ass a lot of times when the SD card broke or some integration wasn't configured properly and I couldn't launch Home Assistant. Install it - believe me, it's necessary.
 
 * [Mosquitto broker](https://github.com/home-assistant/addons/blob/master/mosquitto/DOCS.md) - used for mqtt sensors (most of which in my case are 433mhz, then converted to mqtt protocol by [Xiaomi RF Bridge](https://pl.aliexpress.com/item/32963397492.html?spm=a2g0o.search0302.0.0.4a125ad4dsrMqQ&algo_pvid=17d12786-55fb-4de9-9419-64336a8c355c&algo_expid=17d12786-55fb-4de9-9419-64336a8c355c-1&btsid=2100bdca16116211147923058e3070&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)), it's necessary for my config.
 
@@ -26,7 +26,7 @@ For starters, I use Hassio installation.
 
 * [Samba share](https://www.home-assistant.io/hassio/haos_common_tasks/) - this add-on allows me to share my config across my local network so I can easily upload files, custom integrations or change config using my Windows PC.
 
-* [TasmoAdmin](https://community.home-assistant.io/t/home-assistant-community-add-on-tasmoadmin/54155) - this allows me to centrally manage my all Sonoff-Tasmota devices.
+* [TasmoAdmin](https://community.home-assistant.io/t/home-assistant-community-add-on-tasmoadmin/54155) - this allows me to centrally manage all Sonoff-Tasmota devices.
 
 * [Terminal & SSH](https://community.home-assistant.io/t/home-assistant-community-add-on-ssh-web-terminal/33820) - setting up an SSH server allows access to your Home Assistant folders with any SSH client. It also includes a command-line tool to access the Home Assistant API. It helps with debugging and accessing files in Home Assistant.
 
@@ -55,7 +55,7 @@ One of the most important things in my case because it allows me to set up for e
 
 
 
-* BLE Tracking - for now, it's used for mine [Mi Band 3](https://www.aliexpress.com/w/wholesale-mi-band-3.html) and [iTag devices](https://www.aliexpress.com/w/wholesale-itag-bluetooth-tracker.html). Mi Band and iTags emit BLE Signals every minute or so allowing me to see if they're at home. I execute it with ESP32-BLE (working as a kind of Bluetooth Gateway) flashed with ESPHome, using [ble_presence platform](https://esphome.io/components/binary_sensor/ble_presence.html). It scans for BLE Signals emitted by devices.
+* BLE Tracking - for now, it's used for my [Mi Band 3](https://www.aliexpress.com/w/wholesale-mi-band-3.html) and [iTag devices](https://www.aliexpress.com/w/wholesale-itag-bluetooth-tracker.html). Mi Band and iTags emit BLE Signals every minute or so allowing me to see if they're at home. I execute it with ESP32-BLE (working as a kind of Bluetooth Gateway) flashed with ESPHome, using [ble_presence platform](https://esphome.io/components/binary_sensor/ble_presence.html). It scans for BLE Signals emitted by devices.
 
 
 ### External Access
@@ -65,7 +65,7 @@ In my case, I didn't have much time to set up DNS, so I just use [nabucasa](http
 
 ### Notifications
 
-They are done with mobile apps + [telegram bot](https://www.home-assistant.io/integrations/telegram/). On telegram I only get notifications with photos and/or videos attached and mobile app work for text only notifications. Works well and reliably. I'm also using text to speech on Google Speakers, for example "XYZ is near home".
+They are done with mobile apps + [telegram bot](https://www.home-assistant.io/integrations/telegram/). On telegram, I only get notifications with photos and/or videos attached, and the mobile app works for text only notifications. Works well and reliably. I'm also using text to speech on Google Speakers, for example, "XYZ is near home".
 # User Interface
 
 There's a lot to write about my UI, but long story short it's mostly based on simplicity and has (will have :P) different dashboards for different types of devices.
@@ -75,7 +75,7 @@ I fully transitioned to Lovelace UI, it's easy to set up and gives you a lot of 
 
 * [Lovelace Swipe Navigation](https://github.com/maykar/lovelace-swipe-navigation) - swipe through Lovelace views on mobile, essential for me.
 
-* [layout-card](https://github.com/thomasloven/lovelace-layout-card) - get more control over the placement of lovelace cards.
+* [layout-card](https://github.com/thomasloven/lovelace-layout-card) - get more control over the placement of Lovelace cards.
 
 * [weather-card](https://github.com/bramkragten/weather-card) - weather card with animated icons, I use it with [open weather map API](https://openweathermap.org/)
 
@@ -92,11 +92,11 @@ I fully transitioned to Lovelace UI, it's easy to set up and gives you a lot of 
 
 ### ESP32 Bluetooth Gateway
 
-Just an ESP32 connected to wi-fi network, flashed with ESPHome. It's used for:
+Just an ESP32 connected to a wi-fi network, flashed with ESPHome. It's used for:
 * Tracking, with [ble_presence platform](https://esphome.io/components/binary_sensor/ble_presence.html). It scans for BLE Signals emitted by tracking devices ([iTag](https://www.aliexpress.com/w/wholesale-itag-bluetooth-tracker.html) or Smart Bands/Smart Watches).
 
 * Temperature sensor hub. Collects all the data from [Xiaomi Bluetooth Temperature and Humidity sensor](https://pl.aliexpress.com/item/1005001840988613.html?spm=a2g0o.search0302.0.0.5678540aqnfQ6p&algo_pvid=5aa90c73-b2b3-4021-ba9a-859a20b142be&algo_expid=5aa90c73-b2b3-4021-ba9a-859a20b142be-17&btsid=0b0a187b16118767255823516e8de7&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) using [Xiaomi Mijia BLE Sensors component](https://esphome.io/components/sensor/xiaomi_ble.html) from ESPHome.
 
 ### Xiaomi RF Bridge Modification
 
-[Xiaomi RF Bridge](https://pl.aliexpress.com/item/32963397492.html?spm=a2g0o.search0302.0.0.4a122edc9mQI1s&algo_pvid=ea108c23-dfb3-4c19-9ed1-f65401f41cac&algo_expid=ea108c23-dfb3-4c19-9ed1-f65401f41cac-1&btsid=2100bdde16119184458272994e65fe&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) flashed with Tasmota, using [this tutorial](https://tasmota.github.io/docs/devices/Sonoff-RF-Bridge-433/). Most of my motion sensors are 433Mhz, so this mod allows me to use them. You can not only receive 433mhz signals but you can send them, for example you can use this bridge instead of your 433mhz pilot for gate.
+[Xiaomi RF Bridge](https://pl.aliexpress.com/item/32963397492.html?spm=a2g0o.search0302.0.0.4a122edc9mQI1s&algo_pvid=ea108c23-dfb3-4c19-9ed1-f65401f41cac&algo_expid=ea108c23-dfb3-4c19-9ed1-f65401f41cac-1&btsid=2100bdde16119184458272994e65fe&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) flashed with Tasmota, using [this tutorial](https://tasmota.github.io/docs/devices/Sonoff-RF-Bridge-433/). Most of my motion sensors are 433Mhz, so this mod allows me to use them. You can not only receive 433mhz signals but you can send them, for example, you can use this bridge instead of your 433mhz pilot for a gate.
