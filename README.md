@@ -89,6 +89,8 @@ I fully transitioned to Lovelace UI, it's easy to set up and gives you a lot of 
 
 ### Xiaomi Gateway
 ![xiaomi gateway image](https://user-images.githubusercontent.com/74942333/106276517-fb134700-6237-11eb-8eb5-5326ea749a91.jpg)
+
+
 Xiaomi Gateway is a great way to start your adventure with Smart Home on a budget. It's a Zigbee gateway that you can easily connect to Home Assistant using [built-in integration](https://www.home-assistant.io/integrations/xiaomi_miio/). It's worth noting there are couple models of Gateway so be careful and buy one that connects to Home Assistant. You can connect motion, temperature and a lot of more devices to it, all of them have really good battery life, but their downside is Zigbee range.
 
 ## DIY Projects
