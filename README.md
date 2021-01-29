@@ -128,6 +128,27 @@ There are many devices on a market you can use to implement light control to you
 * [Sonoff Touch](https://www.itead.cc/sonoff-touch.html) x1
 <img src="https://user-images.githubusercontent.com/74942333/106293041-d3c77480-624d-11eb-9fda-4e56b7507a5c.jpg" width="200" height="200">
 
+
+## Motion Sensors
+
+* [433MHZ Digoo Motion Sensor](https://www.amazon.com/DIGOO-Wireless-Infrared-Detector-Security/dp/B074FXWGWP/ref=cm_cr_arp_d_product_top?ie=UTF8) x6 (connected using Modified Xiaomi RF Bridge)
+
+<img src="https://user-images.githubusercontent.com/74942333/106293600-7bdd3d80-624e-11eb-8870-b71ab29c2f17.png" width="200" height="200">
+
+
+## Temperature Sensors
+
+* [Xiaomi Bluetooth Temperature and Humidity sensor](https://pl.aliexpress.com/item/1005001840988613.html?spm=a2g0o.search0302.0.0.5678540aqnfQ6p&algo_pvid=5aa90c73-b2b3-4021-ba9a-859a20b142be&algo_expid=5aa90c73-b2b3-4021-ba9a-859a20b142be-17&btsid=0b0a187b16118767255823516e8de7&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) x2 (connected using ESP32BLE DIY project)
+
+<img src="https://user-images.githubusercontent.com/74942333/106294253-3cfbb780-624f-11eb-9691-d4abfe3afebc.JPG" width="200" height="200">
+
+## Cameras
+
+* [EZVIZ MINI PANO 3MP 360° Cloud Camera](https://www.ezvizlife.com/uk/item/ez360-Pano/798) x2
+
+<img src="https://user-images.githubusercontent.com/74942333/106294160-1d648f00-624f-11eb-8143-44bdc24c2113.jpg" width="200" height="200">
+
+
 ## DIY Projects
 
 ### ESP32 Bluetooth Gateway
