@@ -1,0 +1,97 @@
+
+- id: '1611412672047'
+  alias: Home Assistant update notification
+  description: ''
+  use_blueprint:
+    path: Klumper/home-assistant-update-notification.yaml
+    input:
+      delay: 0
+      updater: binary_sensor.updater
+      notification_message: Home Assistant {{ newest_version }} jest dostępny!
+      notification_title: Czas na update!
+      notify_device: !secret notify_karol
+      is_ios: false
+- id: '1611412915582'
+  alias: Low battery level detection & notification for all battery sensors
+  description: ''
+  use_blueprint:
+    path: sbyx/low-battery-level-detection-notification-for-all-battery-sensors.yaml
+    input:
+      day: 0
+      exclude:
+        entity_id: []
+        device_id:
+        - !secret notify_2e
+        - !secret notify_karol
+        - !secret notify_75
+        - !sercet notfiy_9d
+      actions:
+      - device_id: !secret notify_karol
+        domain: mobile_app
+        type: notify
+        message: Bateria w {{sensors}} wymaga wymiany.
+        title: 'Wymiana baterii '
+- id: '1611501143618'
+  alias: aqara 1 click
+  description: ''
+  trigger:
+  - platform: event
+    event_type: xiaomi_aqara.click
+    event_data:
+      entity_id: binary_sensor.switch_158d0001eba40e
+      click_type: single
+    context: {}
+  condition: []
+  action:
+  - service: input_boolean.toggle
+    data:
+      entity_id: input_boolean.aqara_click_1
+  mode: single
+- id: '1611524839885'
+  alias: aqara 1 double click
+  description: ''
+  trigger:
+  - platform: event
+    event_type: xiaomi_aqara.click
+    event_data:
+      entity_id: binary_sensor.switch_158d0001eba40e
+      click_type: double
+    context: {}
+  condition: []
+  action:
+  - service: input_boolean.toggle
+    data:
+      entity_id: input_boolean.aqara_double_click_1
+  mode: single
+- id: '1611525034164'
+  alias: aqara 1 long_click_press
+  description: ''
+  trigger:
+  - platform: event
+    event_type: xiaomi_aqara.click
+    event_data:
+      entity_id: binary_sensor.switch_158d0001eba40e
+      click_type: long_click_press
+    context: {}
+  condition: []
+  action:
+  - service: input_boolean.toggle
+    data:
+      entity_id: input_boolean.aqara_long_click_press_1
+  mode: single
+- id: '1611525139128'
+  alias: aqara 1 hold
+  description: ''
+  trigger:
+  - platform: event
+    event_type: xiaomi_aqara.click
+    event_data:
+      entity_id: binary_sensor.switch_158d0001eba40e
+      click_type: hold
+    context: {}
+  condition: []
+  action:
+  - service: input_boolean.toggle
+    data:
+      entity_id: input_boolean.aqara_hold_1
+  mode: single
