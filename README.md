@@ -92,14 +92,15 @@ I fully transitioned to Lovelace UI, it's easy to set up and gives you a lot of 
 
 Xiaomi Gateway is a great way to start your adventure with Smart Home on a budget. It's a Zigbee gateway that you can easily connect to Home Assistant using [built-in integration](https://www.home-assistant.io/integrations/xiaomi_miio/).
 
-Devices connected to my gateway:
+#### Devices connected to my gateway:
 * [Motion Sensor](https://pl.aliexpress.com/item/4000015856327.html)
-![AqaraMotion](https://user-images.githubusercontent.com/74942333/106276958-9e645c00-6238-11eb-9506-63a88331eeb7.jpg)
+
+<img src="https://user-images.githubusercontent.com/74942333/106276958-9e645c00-6238-11eb-9506-63a88331eeb7.jpg" width="200" height="200">
 
 
 * [Wireless Mini Switch](https://pl.aliexpress.com/item/4001042438615.html?spm=a2g0o.productlist.0.0.70437cafxLIUMU&algo_pvid=e431f23e-50a3-4f18-99c5-e6ae18eabe05&algo_expid=e431f23e-50a3-4f18-99c5-e6ae18eabe05-5&btsid=0b0a0ae216119245079724924e17f5&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
-![Aqara-mini-przelacznik](https://user-images.githubusercontent.com/74942333/106277183-f307d700-6238-11eb-8e3c-cdb18571156e.png)
 
+<img src="https://user-images.githubusercontent.com/74942333/106277183-f307d700-6238-11eb-8e3c-cdb18571156e.png" width="200" height="200">
 
 ## DIY Projects
 
